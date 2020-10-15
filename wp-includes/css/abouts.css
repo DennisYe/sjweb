@@ -1,0 +1,227 @@
+.clearfloat {
+    overflow: hidden;
+    zoom: 1;
+}
+.m-banner {
+    /*background-image: linear-gradient(180deg,rgba(18,18,18,0.5) 0%,#121212 100%),url(../images/banner-joinUs2.jpg);
+    background-size: cover;*/
+    background-image: url(http://demo.yizhanba.cn/astra-bb/co-working/wp-content/uploads/2019/11/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    width:90%;
+    height:600px;
+    margin:0 auto;
+}
+    .m-banner:after {
+        background-color: rgba(0,12,45,0.5);
+        border-radius: inherit;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+.m-comWrap {
+    background: #f5f5f5;
+    padding: 5px 20px 20px 20px;
+    margin-top:20px;
+
+}
+
+.m-comWrap .m-comWrap-item{
+    background-color:#fff;
+}
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    zoom: 1;
+    width: 100%;
+    margin: 1.875% 0 0;
+    box-sizing: border-box;
+}
+
+.cp-introduce .abu-left {
+    width: 58%;
+    background-size: contain;
+    margin-right: 20px;
+    transform: translate3d(-100%,0,9);
+
+    -webkit-transform: translate3d(-100%,0,0) scale(.8);
+    -ms-transform: translate3d(-100%,0,0) scale(.8);
+    -o-transform: translate3d(-100%,0,0) scale(.8);
+    transform: translate3d(-100%,0,0) scale(.8);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+
+.scrollActive .cp-introduce .abu-left {
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    -ms-transform: translate3d(0,0,0) scale(1);
+    -o-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+}
+
+.cp-introduce .abu-right {
+    width: 37%;
+    padding: 2% 2%;
+    opacity:.1;
+    -webkit-transform: translate3d(0,30px,0) scale(.8);
+    -ms-transform: translate3d(0,30px,0) scale(.8);
+    -o-transform: translate3d(0,30px,0) scale(.8);
+    transform: translate3d(0,30px,0) scale(.8);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+.scrollActive .cp-introduce .abu-right {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0px,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+.abu-title-logo {
+    /*margin: 0 auto;*/
+    float:right;
+    margin:10px 10px 10px;
+}
+
+.cp-introduce .txtWrap {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.subtt {
+    margin: 10px 0 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 2em;
+}
+.pctn {
+    line-height: 1.8em;
+    text-indent: 2em;
+}
+p>i{
+    font-weight:bold;
+}
+
+
+.cp-brand-style1 .abu-right {
+    width: 44%;
+    margin-right: 20px;
+    opacity:.1;
+    -webkit-transform: translate3d(0,20px,0) scale(.4);
+    -ms-transform: translate3d(0,20px,0) scale(.4);
+    -o-transform: translate3d(0,20px,0) scale(.4);
+    transform: translate3d(0,20px,0) scale(.4);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+
+.cp-brand-style1 .abu-left {
+    width: 47%;
+    padding: 2% 2%;
+    opacity: .1;
+    -webkit-transform: translate3d(0,30px,0) scale(.8);
+    -ms-transform: translate3d(0,30px,0) scale(.8);
+    -o-transform: translate3d(0,30px,0) scale(.8);
+    transform: translate3d(0,30px,0) scale(.8);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+.scrollActive .cp-brand-style1 .abu-right {
+
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    -ms-transform: translate3d(0,0,0) scale(1);
+    -o-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+
+.scrollActive .cp-brand-style1 .abu-left {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    -ms-transform: translate3d(0,0,0) scale(1);
+    -o-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+
+.brand-content .brand-content-item {
+    width: 49%;
+    display:inline-block;
+    padding:0 5%;
+}
+.brand-content ul li{
+    list-style:decimal inside;
+    font-size:15px;
+    line-height:1.5em;
+}
+
+.brand-content .subtt{
+    text-indent:0em;
+    font-size:17px;
+}
+.brand-content.item-flex {
+    justify-content: space-around;
+    align-items:start;
+}
+
+
+@media screen and (max-width:1024px) {
+    .cp-introduce .abu-left{
+        display:none;
+    }
+    .cp-introduce .abu-right {
+        width:90%;
+    }
+
+    .cp-brand-style1.item-flex{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .cp-brand-style1 .abu-left {
+        margin-top:20px;
+        width: 100%;
+    }
+
+    .cp-brand-style1 .abu-right {
+        margin-top: 20px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .m-comWrap {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+}
+
+@media screen and (max-width:480px) {
+   
+}

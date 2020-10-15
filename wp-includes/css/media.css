@@ -1,0 +1,721 @@
+@media screen and (max-width:2000px) {
+    #gears {
+        margin-right: 10%;        
+    }
+    .m-banner .d-sjproduct {
+        margin-left:6%;
+    }
+}
+@media screen and (max-width:1500px) {
+    #gears {
+        margin-right: 8%;
+        margin-top: 280px;
+    }
+
+    .m-banner .d-sjproduct {
+        margin-top: 20px;
+        width: 450px;
+        margin-left:0%;
+    }
+    .m-banner .txt {
+        font-size: 30px;
+    }
+    .m-banner .txt i {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:1280px) {
+
+
+    .m-banner .d-sjproduct {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    .m-banner .txt {
+        font-size: 30px;
+    }
+
+        .m-banner .txt i {
+            font-size: 40px;
+        }
+}
+
+@media screen and (max-width:1024px) {
+    .site-nav .menu-list li {
+        margin: 0 10px
+    }
+
+    .site-nav .menu-list {
+        position: fixed;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        margin: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, .9);
+        z-index: 9;
+        -webkit-transform: translate3d(100%, 0, 0);
+        -ms-transform: translate3d(100%, 0, 0);
+        -o-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        overflow-y: auto
+    }
+
+        .site-nav .menu-list.active {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-transition: linear .2s;
+            -o-transition: linear .2s;
+            transition: linear .2s;
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+
+            .site-nav .menu-list.active > div {
+                width: 100%
+            }
+
+        .site-nav .menu-list li {
+            float: none;
+            display: block;
+            font-size: 16px
+        }
+
+            .site-nav .menu-list li.active {
+                font-weight: normal;
+                color: #fff;
+                background: #044b91
+            }
+
+            .site-nav .menu-list li:hover {
+                color: #fff;
+                background: #267dd2
+            }
+
+            .site-nav .menu-list li a {
+                height: auto;
+                line-height: 1em;
+                padding: 1rem;
+                text-align: center
+            }
+
+    .m-companyData,
+    .m-relateLink {
+        padding: 0
+    }
+
+    .m-announcement {
+        padding: 56px 0 68px
+    }
+
+    .m-banner .txt {
+        font-size: 20px
+    }
+
+    .u-menu {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 0;
+        padding: 25px 2rem;
+        font-size: 0;
+        z-index: 10
+    }
+
+        .u-menu i {
+            display: inline-block;
+            width: 100%;
+            height: 4px;
+            margin: 2px 0;
+            background: #00428e
+        }
+
+        .u-menu.active {
+            position: fixed;
+            top: 30px;
+            right: 0
+        }
+
+            .u-menu.active i {
+                -webkit-transition: linear .2s;
+                -o-transition: linear .2s;
+                transition: linear .2s
+            }
+
+                .u-menu.active i:nth-child(1) {
+                    -webkit-transform: translateY(8px) rotate(45deg);
+                    -ms-transform: translateY(8px) rotate(45deg);
+                    -o-transform: translateY(8px) rotate(45deg);
+                    transform: translateY(8px) rotate(45deg)
+                }
+
+                .u-menu.active i:nth-child(2) {
+                    opacity: 0
+                }
+
+                .u-menu.active i:nth-child(3) {
+                    -webkit-transform: translateY(-8px) rotate(-45deg);
+                    -ms-transform: translateY(-8px) rotate(-45deg);
+                    -o-transform: translateY(-8px) rotate(-45deg);
+                    transform: translateY(-8px) rotate(-45deg)
+                }
+
+    .m-relateLink {
+        padding: 0 2%
+    }
+
+    #gears {
+        margin-top: 280px;
+        margin-right:-1%;
+    }
+
+    .m-banner .txt {
+        font-size: 30px;
+    }
+    .m-banner .txt i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    #gears {
+        margin-top: 350px;
+        margin-right: -2%;
+    }
+
+    .m-banner .d-sjproduct {
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .m-banner .txt {
+        font-size: 30px;
+    }
+
+    .m-banner .txt i {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:837px) {
+    #gears {
+        margin-top: 100px;
+        margin-right: -1%;
+    }
+    .m-banner .d-sjproduct {
+        margin-top: 20px;
+        width: 40%;
+    }
+
+    .m-banner .txt {
+        font-size: 30px;
+    }
+
+    .m-banner .txt i {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:768px) {
+    .site-top .relative-link a {
+        margin-right: 1rem
+    }
+
+        .site-top .relative-link a i {
+            margin-right: .2rem
+        }
+
+    .m-partners .brand-list li img {
+        width: 66%
+    }
+
+    .site-top .stock {
+        margin-left: 1rem
+    }
+
+    .m-relateLink .item {
+        padding: 4.5% 0 5.8%;
+        text-align: center
+    }
+
+        .m-relateLink .item .icon {
+            float: none
+        }
+
+        .m-relateLink .item .cnt {
+            float: none;
+            padding: 5% 0 0
+        }
+
+    .m-commonBlock {
+        padding: 7% 0 10%
+    }
+
+    .m-partners .scroll-con {
+        margin-top: 2%
+    }
+
+    .m-section-contact2,
+    .m-section-contact {
+        padding: 6%
+    }
+
+    .m-companyData ul {
+        width: 100%;
+        min-width: auto
+    }
+
+    .m-banner .txt {
+        bottom: 40%;
+    }
+
+    .m-banner .txt i {
+        font-size: 30px;
+    }
+
+    .m-banner .d-sjproduct {
+        margin-top: 30px;
+        width: 300px;;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .m-banner .txt {
+        font-size: 1.5rem
+    }
+
+    .site-nav .logo {
+        padding: 3rem 0 0 7.779661016949152rem;
+        background-size: 100%;
+        margin: 1.8rem 0 0 1rem
+    }
+
+    .flex > .cell {
+        -webkit-box-flex: none;
+        -webkit-flex: none;
+        -ms-flex: none;
+        flex: none;
+        -webkit-flex-basis: none;
+        -ms-flex-preferred-size: none;
+        flex-basis: none
+    }
+
+    .m-com-hd .cnt .list {
+        margin: 8% 0 2%
+    }
+
+        .m-com-hd .cnt .list li .icon {
+            width: 5rem;
+            height: 5rem
+        }
+
+        .m-com-hd .cnt .list.flex > .cell {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            width: 0;
+            -webkit-flex-basis: 0;
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            max-width: 100%;
+            display: block;
+            position: relative
+        }
+
+    .m-relateLink .item {
+        width: 50%
+    }
+
+        .m-relateLink .item .title {
+            font-size: 1.5rem;
+            margin: .5rem 0 0
+        }
+
+        .m-relateLink .item p {
+            font-size: 1rem
+        }
+
+    .m-commonBlock h2 {
+        font-isze: 1.5rem
+    }
+
+    .m-commonBlock .titleEn {
+        font-size: 1.75rem;
+        margin: .5rem 0 0
+    }
+
+    .m-news .new-list .item .title-cate {
+        font-size: 1.5rem
+    }
+
+    .m-news .new-list .item .mod .title {
+        font-size: 1rem
+    }
+
+    .m-news .new-list .item .mod .date {
+        font-size: 1rem;
+        font-family: tahoma, arial
+    }
+
+    .m-news .new-list .item .mod {
+        margin: 1rem
+    }
+
+    .m-news .new-list .cell .item {
+        width: 96%;
+        margin: 2rem auto 0
+    }
+
+    .m-news .new-list .cell {
+        width: 100%
+    }
+
+    .m-companyData {
+        height: auto;
+        margin: 0;
+        background-size: cover
+    }
+
+        .m-companyData ul {
+            padding: 1rem 0;
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+
+        .m-companyData li {
+            width: 50%;
+            margin: 1rem 0
+        }
+
+        .m-companyData.scrollActive .item:hover,
+        .m-companyData ul li:hover {
+            -webkit-transition: linear .2s;
+            -o-transition: linear .2s;
+            transition: linear .2s;
+            -webkit-transform: translate3d(0, -10%, 0);
+            -ms-transform: translate3d(0, -10%, 0);
+            -o-transform: translate3d(0, -10%, 0);
+            transform: translate3d(0, -10%, 0)
+        }
+
+        .m-companyData li .item {
+            margin: 1rem 0
+        }
+
+        .m-companyData li.cell {
+            width: 50%
+        }
+
+    .m-announcement {
+        margin: 0
+    }
+
+        .u-date-line em,
+        .m-announcement .date-line em {
+            font-size: 1rem
+        }
+
+        .u-date-line .line,
+        .m-announcement .date-line .line {
+            margin: 0
+        }
+
+        .u-date-line,
+        .m-announcement .date-line {
+            margin: 1rem 0 0
+        }
+
+        .m-announcement .mod {
+            width: 100%;
+            margin: 3rem 0 0
+        }
+
+            .m-announcement .mod ul {
+                margin: 1rem 0 0
+            }
+
+            .m-announcement .mod .more {
+                height: 1rem
+            }
+
+                .m-announcement .mod .more:after {
+                    left: auto;
+                    right: 0
+                }
+
+                .m-announcement .mod .more:hover:after {
+                    left: auto
+                }
+
+    .swiper-container {
+        height: 27rem
+    }
+
+    .m-partners .brand-list {
+        padding: 1rem
+    }
+
+        .m-partners .brand-list li {
+            width: 50%;
+            height: 5rem;
+            line-height: 1em;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center
+        }
+
+    .footer .menu,
+    .footer .footer-link {
+        margin: 1rem 0 0
+    }
+
+        .footer .menu li a,
+        .footer .footer-link li a {
+            padding: .6rem .8rem;
+            font-size: 1rem
+        }
+
+    .footer .m-qrCode .item p {
+        font-size: 1rem
+    }
+
+    .footer .m-qrCode .item {
+        margin: 1rem
+    }
+
+    .footer .footer-copyright {
+        font-size: 1rem;
+        padding: 1.5rem 1rem 2rem
+    }
+
+    .footer .bd {
+        padding: 1rem
+    }
+
+    .m-relateLink {
+        padding: 0 2rem
+    }
+
+    .m-partners .scroll-con {
+        margin-top: 1rem
+    }
+
+    .m-section-style1 .pic,
+    .m-section-style1 .cnt {
+        float: none;
+        width: 100%
+    }
+
+    .m-com-hd .pic,
+    .m-com-hd .cnt {
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 4%;
+        box-sizing: border-box
+    }
+
+        .m-com-hd .cnt .hd {
+            margin-top: 0
+        }
+
+        .m-com-hd .cnt .tt {
+            font-size: 1.75rem
+        }
+
+        .m-com-hd .cnt .txt {
+            margin-top: 2%;
+            font-size: 1rem
+        }
+
+    .m-comWrap {
+        padding: 4%
+    }
+
+    .m-section-style2 .bd ul li {
+        width: 100%
+    }
+
+    .m-section-style2 {
+        padding: 8% 6%
+    }
+
+    .m-stock table th,
+    .m-stock table td em,
+    .m-stock table td {
+        font-size: 1rem
+    }
+
+    .m-company-msg .com-name {
+        width: 100%;
+        padding: 0
+    }
+
+    .m-com-hd .cnt .hd h2 {
+        font-size: 1.5rem
+    }
+
+    .m-com-hd .cnt .hd .subTitle {
+        font-size: 1rem
+    }
+
+    .m-com-hd .cnt .list li p {
+        font-size: 1.5rem
+    }
+
+    .m-stock table td em {
+        font-size: 1.5rem
+    }
+
+    .m-stock {
+        padding: 3% 2% 2%
+    }
+
+    .dataInfo {
+        margin-top: 1%;
+        font-size: .75rem
+    }
+
+    .m-company-msg {
+        padding: 6%
+    }
+
+        .m-company-msg .com-name .logo {
+            width: 3rem
+        }
+
+        .m-company-msg .com-name .cnt {
+            font-size: 1.5rem
+        }
+
+            .m-company-msg .com-name .cnt .address {
+                font-size: 1rem
+            }
+
+        .m-company-msg .cell {
+            display: block;
+            width: 100%
+        }
+
+    .m-com-hd .pic {
+        padding: 0;
+        margin: 0
+    }
+
+    .m-section-style2 .hd ul li {
+        font-size: 1.25rem;
+        margin-right: 1rem
+    }
+
+    .m-section-contact .list .mod {
+        width: 100%;
+        height: auto;
+        text-align: center
+    }
+
+    .m-section-contact2 h3,
+    .m-section-contact h3 {
+        font-size: 1.8rem
+    }
+
+    .m-section-contact .list .mod h4 {
+        font-size: 1rem
+    }
+
+    .m-section-contact2 .hd ul li {
+        width: auto;
+        min-width: 33.333333%;
+        margin: .2rem 0
+    }
+
+        .m-section-contact2 .hd ul li a {
+            font-size: 1.125rem;
+            font-weight: normal
+        }
+
+    .m-section-contact2 .bd ul li {
+        font-size: 1rem;
+        width: 100%;
+        margin: .2rem 0
+    }
+
+    .m-section-style3 .section-style3-tt h3 {
+        font-size: 2rem
+    }
+
+    .m-section-style3 .hd {
+        font-size: 1.5rem
+    }
+
+        .m-section-style3 .hd ul li {
+            margin-right: .5rem
+        }
+
+    .table-style1 tbody tr:last-child td {
+        border-bottom: 0
+    }
+
+    .pagination {
+        bottom: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        -o-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+
+    .m-section-2-news h1 {
+        font-size: 1.8rem
+    }
+
+
+    .m-banner .txt {
+        bottom: 43% ;
+        font-size: 20px;
+        left:30%;
+    }
+    .m-banner .txt i {
+        font-size: 30px;            
+    }
+    .scrollActive.m-banner .d-sjproduct {
+        margin-top: 30px;
+        margin-left:50px;
+        width: 300px;
+    }
+    #gears{
+
+    }
+}

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js no-svg">
+
+<head>
+    <title>厦门思距机电设备有限公司|ABB电气指定分销商|施耐德电气指定分销商|西门子电气指定分销商|电气供应商</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://hq.sinajs.cn ">-->
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="wp-includes/css/base.css">
+    <link rel="stylesheet" href="wp-includes/css/page.css">
+    <link rel="stylesheet" href="wp-includes/css/contactus.css">
+    <link rel="stylesheet" href="wp-includes/css/media.css">
+    <script src="wp-includes/js/jquery-v1.10.2.min.js"></script>
+
+    <!-- 引入样式 -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
+
+</head>
+
+<body>
+    <div id="J-container">
+        <div class="site-nav">
+            <div class="container">
+                <a href="/">
+                    <h1 class="logo">思距官网</h1>
+                </a>
+
+                <div id="J-mbMenu" class="u-menu"><i class="u-menu__line u-menu__line_1"></i><i class="u-menu__line u-menu__line_2"></i><i class="u-menu__line u-menu__line_3"></i></div>
+                <div id="J-mainMenu" class="menu-list">
+                    <div>
+                        <ul id="top-menu" class="menu">
+                            <li class=""><a href="index.html">首页</a></li>
+                            <li class=" "><a href="product.html">产品中心</a></li>
+                            <li class="current_page_item"><a href="contactus.html">联系我们</a></li>
+                            <li class=""><a href="aboutus.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                    <!-- #site-navigation -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container m-banner J-scrollCnt" style="height:400px;">
+            <iframe src="map.html" width="100%" height="400px" frameborder="0" scrolling="no" marginwidth="0"></iframe>
+        </div>
+        <div class="container">
+            <div class="J-scrollCnt">
+                <div class="item-flex contactRow">
+                    <div class="contactInfo flexItem">
+                        <div class="content">
+                            <div class="title">联系方式</div>
+                            <div class="contact-des">我们的故事将在这里开始，思距，是一家开放，自由，有活力，有担当的企业。我们欢迎有理想，有抱负，有想法的您与我们联系</div>
+                            <div class="item-flex contact-item">
+                                <i class="location contactIcon"></i>
+                                <p>
+                                    厦门市湖里区嘉禾路388号2403
+                                </p>
+                            </div>
+                            <div class="item-flex contact-item">
+                                <i class="mobile contactIcon"></i>
+                                <p>
+                                    电话：0592-5100085<br />
+                                    传真：0592-7305699
+                                </p>
+                            </div>
+                            <div class="item-flex contact-item">
+                                <i class="email contactIcon"></i>
+                                <p>
+                                    siju006@163.com
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="userInfo flexItem">
+                        <div class="title">打个招呼</div>
+                        <form class="content">
+                            <input placeholder="您的姓名" />
+                            <input placeholder="您的邮箱" />
+                            <input placeholder="标题" />
+                            <textarea placeholder="您的留言" rows="5"></textarea>
+                            <button>提交</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>Copyright © www.xm-siju.com All Rights Reserved. </p>
+                <p>
+                    厦门思距机电设备有限公司 版权所有　网站备案：粤ICP备XXXXXX号 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44050702000911" style="display:inline-block;margin-left:10px;"><img src="wp-includes/images/ghs.png" style="float:left;" />粤公网安备 xxxx号</a>
+                    本站网络实名：厦门思距
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>-->
+
+
+    <script type="text/javascript">
+        // 字号
+        function placeholderPic() {
+            var w = document.documentElement.offsetWidth;
+            document.documentElement.style.fontSize = w / 32 + 'px';
+        }
+        placeholderPic();
+        window.onresize = function () {
+            placeholderPic();
+        }
+
+
+        var fn = {
+            handleScroll: function () {
+                $('.J-scrollCnt').each(function () {
+                    //鼠标滚动到元素显示出来
+                    if ($(window).scrollTop() >= ($(this).offset().top - $(window).height())) {
+                        if (!$(this).hasClass('scrollActive')) {
+                            $(this).addClass('scrollActive');
+                        }
+                    }
+                    if ($(this).attr('id') == 'J-partner') {
+                        //懒加载，到快展示时，加载图片
+                        if ($(window).scrollTop() > ($(this).offset().top - $(window).height() - 200)) {
+                            $(this).find('img').each(function () {
+                                $(this).attr('src', $(this).attr('data-original'));
+                            })
+                        }
+                    }
+                })
+            }
+        }
+        $.fn.extend({
+            // 覆盖在某dom结构的loading动画
+            showLoading: function () {
+                var oFragmeng = document.createDocumentFragment();
+                $(oFragmeng).append('<div class="m-discountLoading"><div class="loader-inner line-scale-pulse-out"><i></i><i></i><i></i><i></i><i></i></i></div>');
+                $(this).append(oFragmeng);
+            },
+            // 移除覆盖在某dom结构的loading动画
+            removeLoading: function () {
+                $(this).find('.m-discountLoading').remove();
+            },
+        });
+        $(function () {
+            $('#J-container')
+                .on('click', '#J-mbMenu', function () {
+                    $(this).toggleClass('active');
+                    $('#J-mainMenu').toggleClass('active');
+                })
+
+            if (window.location.href.split(window.location.host)[1] == '/') {
+                $('#J-mainMenu li').eq(0).addClass('current_page_item');
+            }
+        })
+        window.onload = function () {
+            fn.handleScroll();
+            $(window).scroll(function () {
+                fn.handleScroll();
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+.clearfloat {
+    overflow: hidden;
+    zoom: 1;
+}
+.m-banner {
+    margin-top: 40px;
+
+    opacity: .1;
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+.scrollActive.m-banner {
+    opacity: 1;
+    transform: translate3d(0,0,0) scale(1);
+}
+.item-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    overflow: hidden;
+    zoom: 1;
+    width: 100%;
+    margin: 1.875% 0 0;
+    box-sizing: border-box;
+}
+
+.item-flex .flexItem {
+    width: 37%;
+}
+
+.contactInfo, .userInfo {
+    padding: 40px 40px;
+    margin: 20px 20px;
+    background-color: #f4f4f7;
+    margin-top: 90px;
+
+    opacity:.1;
+    -webkit-transform: translate3d(0,30px,0);
+    -ms-transform: translate3d(0,30px,0);
+    -o-transform: translate3d(0,30px,0);
+    transform: translate3d(0,30px,0);
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+.scrollActive .contactInfo, .scrollActive .userInfo {
+    opacity:1;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    -ms-transform: translate3d(0,0,0) scale(1);
+    -o-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+}
+
+.contactRow{
+    width:80%;
+    margin:0 auto;
+    margin-bottom:200px;
+}
+.content {
+    width: 80%;
+}
+
+form input,textarea {
+    display:block;
+}
+
+.contactInfo{
+    line-height:1.6em;
+    font-size:14px;
+}
+.contactRow .title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+.contactIcon {    
+    display: inline-block;
+    width: 50px;
+    height: 48px;
+    -webkit-transition: linear .2s;
+    -o-transition: linear .2s;
+    transition: linear .2s;
+    background: url(../images/icon-sprite-about.png) no-repeat 0 -52px;
+}
+.location {
+
+}
+.mobile {
+    background-position: 0 -196px;
+}
+.email {
+    background-position: 0 -148px;
+}
+
+.contactInfo .item-flex{
+    justify-content:flex-start;
+    align-items:center;
+}
+.contact-item{
+    padding-bottom:40px;
+}
+.contact-item p{
+    margin-left:15px;
+}
+.contact-des{
+    padding-bottom:40px;
+}
+
+.contactRow input {
+    font-size:15px;
+    width:100%;
+    color: #666;
+    padding:1.2em;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    margin-bottom:15px;
+}
+    .contactRow input:focus, .contactRow textarea:focus {
+        border-color: #4f96ce
+    }
+
+.contactRow textarea {
+    font-size: 15px;
+    width: 100%;
+    color: #666;
+    padding: 1.2em;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    margin-bottom: 15px;
+}
+
+.contactRow button {
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: #ffffff;
+    border-color: #4f96ce;
+    background-color: #4f96ce;
+    border-radius: 0;
+    padding-top: 12px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    font-family: 'Roboto Slab',serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.userInfo .title{
+    margin-bottom:50px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+    .contactRow.item-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactRow {
+        width: 100%;
+    }
+    .content {
+        width: 80%;
+    }
+    .item-flex .flexItem {
+        width: 100%;
+    }
+    .contactInfo, .userInfo {
+        margin:0 0;
+        margin-top: 20px;
+    }
+    .contactRow{
+        margin-bottom:50px;
+    }
+}
+
+@media screen and (max-width:480px) {
+}

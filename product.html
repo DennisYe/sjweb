@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js no-svg">
+
+<head>
+    <title>厦门思距机电设备有限公司|工业制造领域提供电子，电器连接器与解决方案</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://hq.sinajs.cn ">-->
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="wp-includes/css/base.css">
+    <link rel="stylesheet" href="wp-includes/css/page.css">
+    <link rel="stylesheet" href="wp-includes/css/adband.css">
+    <link rel="stylesheet" href="wp-includes/css/media.css">
+    <script src="wp-includes/js/jquery-v1.10.2.min.js"></script>
+
+    <!-- 引入样式 -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
+
+</head>
+
+<body>
+    <div id="J-container">
+        <div class="site-nav">
+            <div class="container">
+                <a href="/">
+                    <h1 class="logo">思距官网</h1>
+                </a>
+
+                <div id="J-mbMenu" class="u-menu"><i class="u-menu__line u-menu__line_1"></i><i class="u-menu__line u-menu__line_2"></i><i class="u-menu__line u-menu__line_3"></i></div>
+                <div id="J-mainMenu" class="menu-list">
+                    <div>
+                        <ul id="top-menu" class="menu">
+                            <li class=""><a href="index.html">首页</a></li>
+                            <li class="current_page_item"><a href="product.html">产品中心</a></li>
+                            <li class=" "><a href="contactus.html">联系我们</a></li>
+                            <li class=" "><a href="aboutus.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                    <!-- #site-navigation -->
+                </div>
+            </div>
+        </div>
+
+        <div class="J-scrollCnt" style="height:700px;">
+            <div id="billboard-outer">
+                <ol id="billboard">
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                    <li><div></div><div></div><div></div></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>Copyright © www.xm-siju.com All Rights Reserved. </p>
+                <p>
+                    厦门思距机电设备有限公司 版权所有　网站备案：粤ICP备XXXXXX号 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44050702000911" style="display:inline-block;margin-left:10px;"><img src="wp-includes/images/ghs.png" style="float:left;" />粤公网安备 xxxx号</a>
+                    本站网络实名：厦门思距
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>-->
+
+
+    <script type="text/javascript">
+        var isalreadyCount = false;
+        // 字号
+        function placeholderPic() {
+            var w = document.documentElement.offsetWidth;
+            document.documentElement.style.fontSize = w / 32 + 'px';
+        }
+        placeholderPic();
+        window.onresize = function () {
+            placeholderPic();
+        }
+
+        function countNum(jsObj, num) {
+            var i = 0;
+            var timeFun = setInterval(function () {
+                if (i > num) {
+                    clearInterval(timeFun);
+                }
+                $(jsObj).html(i);
+                i++;
+                //if (i + 100 < num) {
+                //    i += 100;
+                //}
+                if (i + 10 < num) {
+                    i += 10;
+                }
+            }, 10);
+        }
+
+        var fn = {
+            handleScroll: function () {
+                $('.J-scrollCnt').each(function () {
+                    //鼠标滚动到元素显示出来
+                    if ($(window).scrollTop() >= ($(this).offset().top - $(window).height())) {
+                        if (!$(this).hasClass('scrollActive')) {
+                            $(this).addClass('scrollActive');
+                        }
+                    }
+                    if ($(this).attr('id') == 'J-partner') {
+                        //懒加载，到快展示时，加载图片
+                        if ($(window).scrollTop() > ($(this).offset().top - $(window).height() - 200)) {
+                            $(this).find('img').each(function () {
+                                $(this).attr('src', $(this).attr('data-original'));
+                            })
+                        }
+                    }
+                    if ($(this).attr("id") == "J-counter" && $(this).hasClass("scrollActive")) {
+                        if (isalreadyCount) {
+                            return;
+                        }
+                        $(this).find(".cd-item").each(function () {
+                            var num = $(this).find("i").html();
+                            var jqObj = $(this).find("i")[0];
+                            countNum(jqObj, num);
+                        })
+                        isalreadyCount = true;
+                    }
+                })
+            }
+        }
+        $.fn.extend({
+            // 覆盖在某dom结构的loading动画
+            showLoading: function () {
+                var oFragmeng = document.createDocumentFragment();
+                $(oFragmeng).append('<div class="m-discountLoading"><div class="loader-inner line-scale-pulse-out"><i></i><i></i><i></i><i></i><i></i></i></div>');
+                $(this).append(oFragmeng);
+            },
+            // 移除覆盖在某dom结构的loading动画
+            removeLoading: function () {
+                $(this).find('.m-discountLoading').remove();
+            },
+        });
+        $(function () {
+            $('#J-container')
+                .on('click', '#J-mbMenu', function () {
+                    $(this).toggleClass('active');
+                    $('#J-mainMenu').toggleClass('active');
+                })
+
+            if (window.location.href.split(window.location.host)[1] == '/') {
+                $('#J-mainMenu li').eq(0).addClass('current_page_item');
+            }
+        })
+        window.onload = function () {
+            fn.handleScroll();
+            $(window).scroll(function () {
+                fn.handleScroll();
+            })
+        }
+    </script>
+</body>
+
+</html>

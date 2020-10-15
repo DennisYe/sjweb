@@ -1,0 +1,85 @@
+.d-companyData {
+    
+    width: 100%;
+    background-image: linear-gradient(180deg,rgba(33,122,206,0.7) 0%,#143d58 100%),url(../images/repair.jpg) !important;
+    background-position: 50%;
+    background-size: cover;
+}
+.et_pb_bottom_inside_divider {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMnZ3IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0icmdiYSg1LDQxLDY2LDAuMykiPjxwYXRoIGQ9Ik0wIDQ3LjQ0TDE3MCAwbDYyNi40OCA5NC44OUwxMTEwIDg3LjExbDE3MC0zOS42N1YxNDBIMFY0Ny40NHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCA5MC43MmwxNDAtMjguMjggMzE1LjUyIDI0LjE0TDc5Ni40OCA2NS44IDExNDAgMTA0Ljg5bDE0MC0xNC4xN1YxNDBIMFY5MC43MnoiLz48L2c+PC9zdmc+);
+    background-size: 100% 12vw;
+    height: 12vw;
+    z-index: 1;
+    margin-top: -12vw;
+}
+.item-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    overflow: hidden;
+    zoom: 1;
+    width: 100%;
+    margin: 1.875% 0 0;
+    box-sizing: border-box;
+}
+.counter-data{
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.cd-item {
+    display: inline-block;
+    height: 157px;
+    width: 200px;
+    text-align: center;
+}
+.cd-item i{
+    font-size:80px;
+    display:block;
+    color:#fff;
+    
+}
+.cd-item p {
+    display: block;
+    font-size: 17px;
+    color: #f4a946 !important
+}
+
+.m-banner {
+    height:1500px;
+    width:100%;
+   /* background-image: linear-gradient(180deg,rgba(18,18,18,0.5) 0%,#121212 100%),url(../images/banner-joinUs2.jpg);
+    background-size: cover;*/
+}
+    .m-banner .d-sjproduct {
+        width: 500px;
+        margin-top: 0px;
+        margin-left: 10%;
+        -webkit-transform: translate3d(0,30px,0);
+        -ms-transform: translate3d(0,30px,0);
+        -o-transform: translate3d(0,30px,0);
+        transform: translate3d(0,30px,0);
+        opacity: 0;
+        -webkit-transition: ease-in-out 2s;
+        -o-transition: ease-in-out 2s;
+        transition: ease-in-out 2s;
+    }
+.scrollActive.m-banner .d-sjproduct {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    -ms-transform: translate3d(0,0,0) scale(1);
+    -o-transform: translate3d(0,0,0) scale(1);
+}
+#gears {
+    
+    float: right;
+    margin-right: 20%;
+    margin-top:200px;
+    opacity: 0;
+    -webkit-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    transition: ease-in-out 2s;
+}
+.scrollActive #gears {
+    opacity: .85;
+    transform: rotateZ(45deg) translate3d(85px,0,0);
+}

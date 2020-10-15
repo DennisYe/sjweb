@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js no-svg">
+<head>
+    <title>厦门思距机电设备有限公司|工业制造领域提供电子，电器连接器与解决方案</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://hq.sinajs.cn ">-->
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="wp-includes/css/base.css">
+    <link rel="stylesheet" href="wp-includes/css/page.css">
+    <link rel="stylesheet" href="wp-includes/css/index.css">
+    <link rel="stylesheet" href="wp-includes/css/chilun.css">
+    <link rel="stylesheet" href="wp-includes/css/media.css">
+    <script src="wp-includes/js/jquery-v1.10.2.min.js"></script>
+
+    <!-- 引入样式 -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
+
+</head>
+
+<body>
+    <div id="J-container">
+        <div class="site-nav">
+            <div class="container">
+                <a href="/">
+                    <h1 class="logo">思距官网</h1>
+                </a>
+
+                <div id="J-mbMenu" class="u-menu"><i class="u-menu__line u-menu__line_1"></i><i class="u-menu__line u-menu__line_2"></i><i class="u-menu__line u-menu__line_3"></i></div>
+                <div id="J-mainMenu" class="menu-list">
+                    <div>
+                        <ul id="top-menu" class="menu">
+                            <li class="current_page_item"><a href="index.html">首页</a></li>
+                            <li class=" "><a href="product.html">产品中心</a></li>
+                            <li class=" "><a href="contactus.html">联系我们</a></li>
+                            <li class=" "><a href="aboutus.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                    <!-- #site-navigation -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="m-com-hd m-com-hd-detail">
+            </div>
+        </div>
+        <div class="m-comWrap container">
+            <div class="m-section-2 m-section-2-news ">
+                <article id="post-164" class="post-164 page type-page status-publish hentry">
+                    <header class="entry-header">
+                        <h1 class="entry-title">2020厦门工业博览会暨第24届海峡两岸机械电子商品交易会</h1>
+                        <div class="entry-meta">
+                            <span class="posted-on">
+                                <span class="screen-reader-text">发布于</span>
+                                <time class="entry-date published updated" datetime="">2020-07-11</time>
+                            </span>
+                        </div>
+                    </header>
+
+                    <div class="entry-content">
+                        <p>2020年7月9日，厦门工业博览会暨第24届海峡两岸机械电子商品交易会在海峡国际会展中心举办，我司携产品参加了展会。</p>
+                        <img width="5760" height="3636" src="wp-includes/images/news/hz01.jpg" />
+                    </div>
+
+                </article>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>Copyright © www.xm-siju.com All Rights Reserved. </p>
+                <p>
+                    厦门思距机电设备有限公司 版权所有　网站备案：粤ICP备XXXXXX号 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44050702000911" style="display:inline-block;margin-left:10px;"><img src="wp-includes/images/ghs.png" style="float:left;" />粤公网安备 xxxx号</a>
+                    本站网络实名：厦门思距
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // 字号
+        function placeholderPic() {
+            var w = document.documentElement.offsetWidth;
+            document.documentElement.style.fontSize = w / 32 + 'px';
+        }
+        placeholderPic();
+        window.onresize = function () {
+            placeholderPic();
+        }
+
+
+        var fn = {
+            handleScroll: function () {
+                $('.J-scrollCnt').each(function () {
+                    if ($(window).scrollTop() >= ($(this).offset().top - $(window).height())) {
+                        if (!$(this).hasClass('scrollActive')) {
+                            $(this).addClass('scrollActive');
+                        }
+                    }
+                    if ($(this).attr('id') == 'J-partner') {
+                        if ($(window).scrollTop() > ($(this).offset().top - $(window).height() - 200)) {
+                            $(this).find('img').each(function () {
+                                $(this).attr('src', $(this).attr('data-original'));
+                            })
+                        }
+                    }
+                })
+            }
+        }
+        $.fn.extend({
+            // 覆盖在某dom结构的loading动画
+            showLoading: function () {
+                var oFragmeng = document.createDocumentFragment();
+                $(oFragmeng).append('<div class="m-discountLoading"><div class="loader-inner line-scale-pulse-out"><i></i><i></i><i></i><i></i><i></i></i></div>');
+                $(this).append(oFragmeng);
+            },
+            // 移除覆盖在某dom结构的loading动画
+            removeLoading: function () {
+                $(this).find('.m-discountLoading').remove();
+            },
+            /*新功能提醒-首页通知*/
+            showPopNoticeIndex: function (cookieparameter, iExpiration) {
+                if ((new Date().getTime() > iExpiration) || getCookie(cookieparameter)) return;
+                $(this).show();
+            }
+        });
+        $(function () {
+            $('#J-container')
+                .on('click', '.h5-layer-conatiner', function () {
+                    var $this = $(this),
+                        $videoMainWrapper = $('#J-videoMainWrapper'),
+                        iThisIndex = $this.index(),
+                        oEle = $videoMainWrapper.find('.h5-layer-conatiner');
+                    if ($this.parent('.item').attr('id') != 'J-videoMainWrapper') {
+                        $this.parent('.item').append(oEle);
+                        $videoMainWrapper.append($this);
+                    }
+                    var video = $('#J-video-zyd')[0];
+
+                    if (video.canPlayType) {
+                        if (video.paused) {
+                            video.play();
+                            $(video).prev('.J-videoMask').removeClass('show');
+                        } else {
+                            video.pause();
+                        }
+                    }
+                    video.onwaiting = function () {
+                        $(video).parents('.h5-layer-conatiner').showLoading();
+                    }
+                    video.onplaying = function () {
+                        $(video).parents('.h5-layer-conatiner').removeLoading();
+
+                    }
+                    video.onended = function () { };
+
+
+                })
+                .on('click', '#J-mbMenu', function () {
+                    $(this).toggleClass('active');
+                    $('#J-mainMenu').toggleClass('active');
+                })
+            $('#J-mainMenu li').each(function () {
+                var oEle = $(this).find('a');
+                if (oEle.attr('href').indexOf('zydmall') >= 0) {
+                    oEle.attr('target', '_blank');
+                }
+            })
+
+            if (window.location.href.split(window.location.host)[1] == '/') {
+                $('#J-mainMenu li').eq(0).addClass('current_page_item');
+            }
+
+            $('#J-tab li').each(function (i) {
+                $(this).on('click', function () {
+                    $(this).addClass('active').siblings('li').removeClass('active');
+                    $('#J-tabCnt .J-cnt').eq(i).addClass('active').siblings('.J-cnt').removeClass('active');
+                })
+            })
+
+        })
+        window.onload = function () {
+            fn.handleScroll();
+            $(window).scroll(function () {
+                fn.handleScroll();
+            })
+        }
+    </script>
+</body>
+</html>
